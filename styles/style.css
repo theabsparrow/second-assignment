@@ -224,7 +224,7 @@ form {
     line-height: 26px;
 }
 
-.content-text .blog-button {
+.blog-button {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -586,11 +586,62 @@ form {
     font-weight: 800;
     padding: 14px 22px;
 }
-.package-button{
+
+.package-button {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
+
+/* discount section ends here */
+
+/* video section starts here */
+#video-section {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0px auto
+}
+
+.video-container {
+    display: flex;
+    gap: 42px;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-container .video-text{
+    padding-top:0px;
+}
+.video-container .video-clip{
+    height: 425px;
+}
+.video-container .video-text h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+.video-container .video-text p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.video-container .video-text li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+/* video section ends here */
 
 /* media responsive section for mobile */
 @media screen and (max-width:600px) {
