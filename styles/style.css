@@ -15,21 +15,30 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.nav-logo {
+nav .nav-logo {
     display: flex;
     align-items: center;
-    gap: 16px;
+    /* gap: 16px; */
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+nav .nav-bar {
+    /* border: 2px solid red; */
+    width: 50%;
 }
 
 nav .nav-bar ul {
     display: flex;
-    justify-content: center;
+
+    justify-content: space-around;
     align-items: center;
-    gap: 44px;
+    /* gap: 44px; */
+
 }
 
 nav .nav-bar ul li {
@@ -45,7 +54,7 @@ nav .nav-bar ul li a {
     font-weight: 400;
 }
 
-nav .nav-logo h1 {
+*/ nav .nav-logo h1 {
     color: #131318;
     font-family: Mulish;
     font-size: 36px;
@@ -61,20 +70,22 @@ span {
 .banner-content {
     width: 80%;
     max-width: 1440px;
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group-42.png);
-    background-repeat: no-repeat; 
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group-42.png);
+    background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     margin: 50px auto;
     max-height: 505px;
-    border: 3px solid violet;
+    /* border: 3px solid violet; */
     border-radius: 15px 15px 15px 15px;
 }
+
 .banner-text {
     padding: 106px 106px;
 
 }
-.banner-text .banner-heading{
+
+.banner-text .banner-heading {
     text-align: center;
 }
 
@@ -85,7 +96,7 @@ span {
     font-size: 64px;
     font-weight: 800;
     margin-bottom: 24px;
-} 
+}
 
 .banner-text .banner-heading p {
     color: #FFF;
@@ -101,8 +112,8 @@ span {
 .banner-form {
     margin: 0px auto;
     padding-bottom: 106px;
-    width:auto;
-} 
+    width: auto;
+}
 
 form {
     display: flex;
@@ -117,7 +128,7 @@ form {
     padding: 8px 16px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.30);
-} 
+}
 
 .banner-form form #name {
     padding: 16px 0px 16px 16px;
@@ -139,6 +150,7 @@ form {
     font-size: 16px;
     font-weight: 400;
 }
+
 .banner-form form .type {
     padding: 16px 73px 16px 16px;
     border: none;
@@ -160,8 +172,102 @@ form {
     padding: 16px 16px;
     border: none;
 }
+
 /* banner section ends here */
 /* header section ends here */
 
 
 /* main section starts here */
+.section-content {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-text {
+    width: 50%;
+}
+
+.content-image {
+    width: 50%;
+}
+
+.content-text h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.content-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.content-text li {
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.content-text .blog-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 34px 13px 35px;
+    border: none;
+}
+
+/* media responsive section for mobile */
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 36px;
+
+    }
+
+    nav .nav-logo {
+        width: 100%;
+    }
+
+    nav .nav-bar {
+        width: 100%;
+    }
+
+    nav .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 85%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .banner-text .banner-heading h1 {
+        padding: 36px;
+        font-size: 22px;
+    }
+
+}
