@@ -178,12 +178,16 @@ form {
 
 
 /* main section starts here */
+
+/* blog section starts */
 .section-content {
     width: 82%;
     max-width: 1440px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 53px;
 }
 
 /* .content-text {
@@ -232,6 +236,143 @@ form {
     border: none;
 }
 
+/* blog section ends */
+
+/* destination section starts */
+#destination {
+    width: 82%;
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+#destination .destination-heading {
+    text-align: center;
+}
+
+#destination .destination-heading h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#destination .destination-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 263px;
+}
+
+.destination-photo {
+    margin-top: 48px;
+}
+
+.destination-photo .img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+/* .img-1-text,.img-2-text,.img-3-text,.img-4-text,.img-5-text,.img-6-text,.img-7-text{
+    position: absolute;
+} */
+.img-1-text {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-2-text {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-3-text {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-4-text {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-5-text {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-6-text {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-7-text {
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.first-row{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.second-row{
+    display: flex;
+    gap: 24px;
+    margin-bottom:24px;
+}
+.third-row{
+    display: flex;
+    gap: 24px;
+}
+
+
 /* media responsive section for mobile */
 @media screen and (max-width:600px) {
     nav {
@@ -239,7 +380,7 @@ form {
         justify-content: space-between;
         align-items: center;
         gap: 36px;
-}
+    }
 
     nav .nav-logo {
         width: 100%;
@@ -268,16 +409,18 @@ form {
         padding: 36px;
         font-size: 22px;
     } */
-    .section-content{
+    .section-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 36px;
     }
-    .section-content .content-text{
+
+    .section-content .content-text {
         width: 100%;
     }
-    .content-image{
+
+    .content-image {
         width: 100vw;
         height: 100vh;
         text-align: center;
