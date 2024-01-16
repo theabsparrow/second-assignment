@@ -608,12 +608,15 @@ form {
     justify-content: space-between;
     align-items: center;
 }
-.video-container .video-text{
-    padding-top:0px;
+
+.video-container .video-text {
+    padding-top: 0px;
 }
-.video-container .video-clip{
+
+.video-container .video-clip {
     height: 425px;
 }
+
 .video-container .video-text h1 {
     color: #131318;
     font-family: Mulish;
@@ -641,7 +644,122 @@ form {
     text-align: left;
     margin-bottom: 16px;
 }
+
 /* video section ends here */
+
+/* newsletter section starts */
+.news-letter-content {
+    width: 82%;
+    max-width: 1440px;
+    margin: 100px auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.news-letter-input .input-text {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.news-letter-input .news-letter-heading h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-letter-input .news-letter-heading p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #1313181A;
+}
+
+.subscribe {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 24px;
+    padding: 14px 149px;
+}
+
+.input-text input {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 251px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+}
+
+.news-letter-input {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.news-letter-img{
+    position: relative;
+}
+.banner-sticker{
+    position: absolute;
+    bottom: 72px;
+    right: 0px;
+    transform: rotate(-30deg);
+}
+
+.news-letter-sticker {
+    width: 40%;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.news-letter-sticker h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.news-letter-sticker h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+/* news-letter section ends here */
+
+/* footer section starts here */
+
+
 
 /* media responsive section for mobile */
 @media screen and (max-width:600px) {
