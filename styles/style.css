@@ -219,14 +219,6 @@ form {
     gap: 53px;
 }
 
-/* .content-text {
-    width: 50%;
-} */
-
-/* .content-image {
-    width: 50%;
-} */
-
 .content-text h1 {
     color: #131318;
     font-family: Mulish;
@@ -446,7 +438,6 @@ form {
 .card-2,
 .card-3 {
     width: 48%;
-    /* border: 2px solid red; */
     padding: 32px;
 }
 
@@ -809,7 +800,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 16px;
-    /* align-items: center; */
 }
 
 .footer-logo h1 {
@@ -843,72 +833,5 @@ footer {
     font-weight: 300;
     padding-bottom: 100px;
 }
+/* footer section ends */
 
-/* media responsive section for mobile */
-@media screen and (max-width:600px) {
-    nav {
-        flex-direction: column;
-        justify-content: space-between; 
-        align-items: center; 
-        gap: 36px;
-    }
-
-    nav .nav-logo {
-        width: 100%;
-        display: flex;
-        gap: 32px;
-    }
-
-    nav .nav-bar {
-        width: 25%;
-        height: auto;
-        background-color: azure;
-        position: absolute;
-    }
-
-    nav .nav-bar ul {
-        display: flex;
-        flex-direction: column;
-        display: none;
-     }
-     .hamburger{
-        display: block;
-        position: absolute;
-        right: 10%;
-        top: 5%;
-        cursor: pointer;
-     }
-     
-     
-
-    /* .banner-content {
-        width: 85%;
-        height: 100%;
-        object-fit: contain;
-    }
-
-    .form {
-        flex-direction: column;
-    }
-
-    .banner-text .banner-heading h1 {
-        padding: 36px;
-        font-size: 22px;
-    } */
-    .section-content {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 36px;
-    }
-
-    .section-content .content-text {
-        width: 100%;
-    }
-
-    .content-image {
-        width: 100vw;
-        height: 100vh;
-        text-align: center;
-    }
-}
