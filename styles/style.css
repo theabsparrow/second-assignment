@@ -284,9 +284,6 @@ form {
     height: auto;
 }
 
-/* .img-1-text,.img-2-text,.img-3-text,.img-4-text,.img-5-text,.img-6-text,.img-7-text{
-    position: absolute;
-} */
 .img-1-text {
     position: absolute;
     top: 45%;
@@ -297,6 +294,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-2-text {
     position: absolute;
     top: 45%;
@@ -307,6 +305,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-3-text {
     position: absolute;
     top: 45%;
@@ -317,6 +316,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-4-text {
     position: absolute;
     top: 45%;
@@ -327,6 +327,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-5-text {
     position: absolute;
     top: 45%;
@@ -337,6 +338,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-6-text {
     position: absolute;
     top: 45%;
@@ -347,6 +349,7 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
+
 .img-7-text {
     position: absolute;
     top: 45%;
@@ -357,19 +360,127 @@ form {
     font-size: 28px;
     font-weight: 800;
 }
-.first-row{
+
+.first-row {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
-.second-row{
+
+.second-row {
     display: flex;
     gap: 24px;
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
-.third-row{
+
+.third-row {
     display: flex;
     gap: 24px;
+}
+
+/* destination section ends */
+/* service section starts */
+
+.service-section {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.service-section .srevice-heading {
+    text-align: center;
+    padding: 0px 263px;
+}
+
+.service-section .srevice-heading h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.service-section .srevice-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.service-content {
+    margin-top: 48px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 48%;
+    /* border: 2px solid red; */
+    padding: 32px;
+}
+
+.first-row-card {
+    display: flex;
+    gap: 24px;
+}
+
+.service-content h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.service-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.service-content img {
+    margin-bottom: 32px;
+}
+
+.first-row-card .card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.first-row-card .card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.second-row-card .card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.service-content .second-row-card{
+margin-top: 24px;
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+/* service section ends */
+/* discount section starts */
+.discount{
+    width: 82%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.discount .discount-heading{
+    text-align: center;
+    padding-left: 264px;
+    padding-right: 264px;
+    margin-bottom: 48px;
 }
 
 
@@ -425,5 +536,4 @@ form {
         height: 100vh;
         text-align: center;
     }
-
 }
