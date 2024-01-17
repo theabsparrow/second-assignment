@@ -678,6 +678,13 @@ form {
     font-size: 36px;
     font-weight: 800;
 }
+.star-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
 
 /* my custom section ends here */
 
@@ -1075,7 +1082,7 @@ footer {
     .rating-content{
         grid-template-columns: repeat(1,1fr);
     }
-
+/* my custom section ends */
 
     /* newsletter section start */
     .news-letter-content {
