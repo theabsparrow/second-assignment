@@ -10,33 +10,38 @@
 /* navigation starts here */
 
 /* hamburger section starts */
-.hamburger{
+.hamburger {
     width: 30px;
     height: 30px;
-    background-color:white;
+    background-color: white;
     position: absolute;
     top: 10px;
     right: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0, 3);
     display: none;
 }
-.toogle .common{
+
+.toogle .common {
     position: absolute;
     height: 3px;
     width: 30px;
     background-color: blueviolet;
     border-radius: 50px;
- }
- .toogle .top-line{
+}
+
+.toogle .top-line {
     top: 7px;
- }
- .toogle .middle-line{
-    top:15px ;
- }
- .toogle .bottom-line{
+}
+
+.toogle .middle-line {
+    top: 15px;
+}
+
+.toogle .bottom-line {
     top: 22px;
- }
- /* hamburger section ends */
+}
+
+/* hamburger section ends */
 
 nav {
     width: 82%;
@@ -56,11 +61,11 @@ nav .nav-logo {
     align-items: center;
     gap: 16px;
     width: 50%;
-    
+
 }
 
 nav .nav-bar {
-    
+
     width: 50%;
 }
 
@@ -616,6 +621,66 @@ form {
 
 /* discount section ends here */
 
+/* my custon section */
+.review-container {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 113px;
+}
+
+.rating-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.rating-content img {
+    width: 100px;
+    height: auto;
+    border: 1px dotted red;
+    border-radius: 50%;
+}
+
+.review-card-4 img {
+    height: 90px;
+    object-fit: content;
+}
+
+.review-heading {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.review-heading h1 {
+    margin-bottom: 16px;
+}
+
+.review-img {
+    text-align: center;
+}
+
+.review-card-1,
+.review-card-2,
+.review-card-3,
+.review-card-4 {
+    padding: 24px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 10px;
+}
+
+#review-heading {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* my custom section ends here */
+
 /* video section starts here */
 #video-section {
     width: 82%;
@@ -836,3 +901,219 @@ footer {
 }
 /* footer section ends */
 
+
+
+
+/* media responsive section for mobile */
+@media screen and (max-width:600px) {
+
+    /* header section starts */
+    /* nav section starts */
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 36px;
+    }
+
+    nav .nav-logo {
+        width: 100%;
+        display: flex;
+        gap: 32px;
+    }
+
+    nav .nav-bar {
+        width: 25%;
+        height: auto;
+        background-color: azure;
+        position: absolute;
+    }
+
+    nav .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    /* humburger section starts */
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10%;
+        top: 5%;
+        cursor: pointer;
+    }
+    /* humburger section ends */
+    /* nav nection ends */
+
+/* banner section starts */
+    .banner-content img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .banner-text {
+        padding: 0px 0px;
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        width: 80%;
+    }
+    
+    .banner-text .banner-heading h1 {
+        text-align: center;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 34px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .banner-text .banner-heading p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 32px;
+        padding: 0px 0px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+    .form label button {
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px 52px;
+        border: none;
+    }
+    /* banner section ends */
+    .section-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+    }
+
+    .section-content .content-text {
+        width: 100%;
+    }
+
+    .content-image {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    #destination .destination-heading p {
+        padding: 0px;
+    }
+
+    #destination {
+        width: 82%;
+        max-width: 1440px;
+        margin-top: 0px;
+        position: relative;
+        top: -100px;
+    }
+
+   .destination-photo img{
+    width: 100%;
+    height: 100%;
+   }
+
+    .first-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .third-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* service section */
+    .service-section .srevice-heading {
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+    .first-row-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* discount section */
+    .discount .discount-heading {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 48px;
+    }
+
+    /* video section start */
+    .video-container {
+        flex-direction: column;
+    }
+
+    .video-clip video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* my custom section starts */
+    .rating-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    /* newsletter section start */
+    .news-letter-content {
+        flex-direction: column;
+    }
+
+    .news-letter-input {
+        width: 100%;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 20px;
+    }
+
+    .news-letter-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-letter-sticker {
+        width: 45%;
+
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        padding-left: 10px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+
+    .banner-sticker {
+        position: absolute;
+        bottom: 47px;
+        right: 15px;
+        transform: rotate(-30deg);
+    }
+    footer{
+        width: 100%;
+    }
+    /* reponsive end */
+}
