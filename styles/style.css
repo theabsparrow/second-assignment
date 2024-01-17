@@ -1067,6 +1067,27 @@ footer {
         padding-right: 0;
         margin-bottom: 48px;
     }
+    .discount-image img{
+        width: 100%;
+    }
+    
+    .image-cover-text {
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 16px;
+        width: 100%;
+        height:100%;
+    }
+    .image-cover-text {
+        position: absolute;
+        top: -70%;
+        left: 5%;
+    }
+    
+    .img-text {
+        left: 45%;
+    }
 
     /* video section start */
     .video-container {
