@@ -1,5 +1,8 @@
 /* media responsive section for mobile */
 @media screen and (max-width:600px) {
+
+    /* header section starts */
+    /* nav section starts */
     nav {
         flex-direction: column;
         justify-content: space-between;
@@ -25,7 +28,7 @@
         flex-direction: column;
         display: none;
     }
-
+    /* humburger section starts */
     .hamburger {
         display: block;
         position: absolute;
@@ -33,23 +36,57 @@
         top: 5%;
         cursor: pointer;
     }
+    /* humburger section ends */
+    /* nav nection ends */
 
-
-
-    /* .banner-content {
-        width: 85%;
-        height: 100%;
-        object-fit: contain;
+/* banner section starts */
+    .banner-content img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .banner-text {
+        padding: 0px 0px;
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        width: 80%;
+    }
+    
+    .banner-text .banner-heading h1 {
+        text-align: center;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 34px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .banner-text .banner-heading p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 32px;
+        padding: 0px 0px;
     }
 
     .form {
         flex-direction: column;
     }
-
-    .banner-text .banner-heading h1 {
-        padding: 36px;
-        font-size: 22px;
-    } */
+    .form label button {
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px 52px;
+        border: none;
+    }
+    /* banner section ends */
     .section-content {
         flex-direction: column;
         justify-content: center;
